@@ -2,7 +2,7 @@ package com.student;
 
 
 import java.util.ArrayList;
-
+/*
 class Student{
 
     private int rollno,cmarks,pmarks,mmarks;
@@ -146,7 +146,7 @@ public class StudentPlacement {
         //String s=fb.toString();
 
         //Facebook Data
-        /*
+
         System.out.println(obj1.getName());
         fb.suitableToHire(obj1.getMmarks(), obj1.getDepartment(), obj1.findAverage());
         System.out.println(obj2.getName());
@@ -167,7 +167,7 @@ public class StudentPlacement {
         System.out.println(obj4.getName());
         google.suitableToHire(obj4.getMmarks(), obj4.getDepartment(), obj4.findAverage());
 
-         */
+
 
         //Amazon Data
         System.out.println(obj1.getName());
@@ -184,3 +184,4 @@ public class StudentPlacement {
 
     }
 }
+*/

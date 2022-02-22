@@ -69,6 +69,10 @@ class GradeCalculation{     //change d name maybe as student
         this.name = name;
     }
 
+    public String toString(){
+        return this.getRollno() + this.getName()+this.getCmarks()+this.getMmarks()+this.getPmarks();
+    }
+
 
 }
 public class Grade_Calculator_Oops {   //try avoding underscore
@@ -90,29 +94,46 @@ public class Grade_Calculator_Oops {   //try avoding underscore
 
         //average1= ((obj1.getCmarks()+obj1.getPmarks()+obj1.getMmarks())/300)*100;
         //System.out.println("average of student 1 is:"+average1);
-    /*
+
         int student1=obj1.FindAverage();
         int student2=obj2.FindAverage();
         int student3=obj3.FindAverage();
         int student4=obj4.FindAverage();
 
-     */
 
 
+        /*
         Integer[] avg={obj1.FindAverage(), obj2.FindAverage(), obj3.FindAverage(), obj4.FindAverage()};
         int max = Collections.max(Arrays.asList(avg));
         System.out.println("Maximum Average is : "+ max);
 
-        /*
-        List<Integer> list=new LinkedList<Integer>();
-        list.add(student1);
-        list.add(student2);
-        list.add(student3);
-        list.add(student4);
-
-        System.out.println("Max Average is: "+ Collections.max(list));
-
          */
+
+        List<GradeCalculation> list1=new LinkedList<GradeCalculation>();
+        list1.add(obj1);
+        System.out.println(list1);
+/*
+        List<Integer> listavg=new LinkedList<Integer>();
+        listavg.add(student1);
+        listavg.add(student2);
+        listavg.add(student3);
+        listavg.add(student4);
+
+
+        List<String> list=new LinkedList<String>();
+        list.add(obj1.getName()+":"+obj1.getRollno()+":Average Marks-"+obj1.FindAverage());
+        list.add(obj2.getName()+":"+obj2.getRollno()+":Average Marks-"+obj2.FindAverage());
+        list.add(obj3.getName()+":"+obj3.getRollno()+":Average Marks-"+obj3.FindAverage());
+        list.add(obj4.getName()+":"+obj4.getRollno()+":Average Marks-"+obj4.FindAverage());
+        System.out.println(list);
+
+        System.out.println("Maximum Average is: "+ Collections.max(listavg));
+
+ */
+
+
     }
     //collect student as array, pass array to some utility method, method will accept students, and will return student with max marks
 }
+
+
