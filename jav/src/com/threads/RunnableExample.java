@@ -23,7 +23,7 @@ public class RunnableExample implements Runnable {
 
         Thread.currentThread().setName("th1");
         System.out.println(Thread.currentThread());
-        
+
         th1.start();
         Thread.currentThread().setName("th2");
         System.out.println(Thread.currentThread());
