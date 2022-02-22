@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 dummy text!!
+=======
+dummy text!
+>>>>>>> 63e51e8a563ff4832ff5bfada21d6746d5603265
